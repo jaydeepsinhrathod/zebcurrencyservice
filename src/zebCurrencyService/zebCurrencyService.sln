@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zebCurrencyService", "zebCurrencyService\zebCurrencyService.csproj", "{797E32F1-BADF-438F-9C09-6C647C71C004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{5952F3C3-78D7-46B4-98E5-F23C8E1F4A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeb.Data", "Zeb.Data\Zeb.Data.csproj", "{29A895F3-6945-4A39-878D-EA28A17067ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeb.Core", "Zeb.Core\Zeb.Core.csproj", "{2F74DE09-8E58-4116-BC00-19F497B60084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeb.Services", "Zeb.Services\Zeb.Services.csproj", "{E52F1636-9C28-487D-9BEA-56651EE0778F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeb.Web.Framework", "Zeb.Web.Framework\Zeb.Web.Framework.csproj", "{5405B465-C566-41B3-8AF7-8572AF0BE1AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{797E32F1-BADF-438F-9C09-6C647C71C004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797E32F1-BADF-438F-9C09-6C647C71C004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797E32F1-BADF-438F-9C09-6C647C71C004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797E32F1-BADF-438F-9C09-6C647C71C004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A895F3-6945-4A39-878D-EA28A17067ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A895F3-6945-4A39-878D-EA28A17067ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A895F3-6945-4A39-878D-EA28A17067ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A895F3-6945-4A39-878D-EA28A17067ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F74DE09-8E58-4116-BC00-19F497B60084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F74DE09-8E58-4116-BC00-19F497B60084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F74DE09-8E58-4116-BC00-19F497B60084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F74DE09-8E58-4116-BC00-19F497B60084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52F1636-9C28-487D-9BEA-56651EE0778F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52F1636-9C28-487D-9BEA-56651EE0778F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52F1636-9C28-487D-9BEA-56651EE0778F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52F1636-9C28-487D-9BEA-56651EE0778F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5405B465-C566-41B3-8AF7-8572AF0BE1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5405B465-C566-41B3-8AF7-8572AF0BE1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5405B465-C566-41B3-8AF7-8572AF0BE1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5405B465-C566-41B3-8AF7-8572AF0BE1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29A895F3-6945-4A39-878D-EA28A17067ED} = {5952F3C3-78D7-46B4-98E5-F23C8E1F4A00}
+		{2F74DE09-8E58-4116-BC00-19F497B60084} = {5952F3C3-78D7-46B4-98E5-F23C8E1F4A00}
+		{E52F1636-9C28-487D-9BEA-56651EE0778F} = {5952F3C3-78D7-46B4-98E5-F23C8E1F4A00}
+	EndGlobalSection
+EndGlobal

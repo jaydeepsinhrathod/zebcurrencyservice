@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ZabCurrencyDbEntities-Web.config Connection String" description="ZabCurrencyDbEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/ZabCurrencyData.csdl|res://*/ZabCurrencyData.ssdl|res://*/ZabCurrencyData.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=zebcurrency.database.windows.net;initial catalog=ZebCurrencyDb;user id=zebcurrency;password=zeb@103040;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Development\ Lab\\zebpay\\zebCurrencyService\\zebCurrencyService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ZabCurrencyDbEntities']/@connectionString" />
+  </parameter>
+</parameters>
